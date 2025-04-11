@@ -1,0 +1,31 @@
+{
+	"name": "access-core",
+	"version": "1.0.0",
+	"description": "A simple package that provides accessibility functions with no UI",
+	"main": "index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"check-packages": "npx npm-check -u -E",
+		"refresh-packages": "rm -rf node_modules && rm -rf package-lock.json && npm i"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MomoRazor/access-core.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/MomoRazor/access-core/issues"
+	},
+	"homepage": "https://github.com/MomoRazor/access-core#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"eslint": "9.24.0",
+		"eslint-config-prettier": "10.1.2",
+		"npm-check": "6.0.1",
+		"prettier": "3.5.3",
+		"typescript": "5.8.3",
+		"typescript-eslint": "8.29.1",
+		"@types/dom-speech-recognition": "0.0.6"
+	}
+}
